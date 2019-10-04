@@ -1,0 +1,127 @@
+﻿html
+{
+}
+
+body {
+  position: relative;
+  margin:0;
+  padding:0;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Gloria Hallelujah', cursive;
+
+
+
+
+  /*fond ecran*/
+  background-image: url("../agenda/img/background.JPG");
+  background-repeat:no-repeat;
+  background-size:cover;
+  backdrop-filter: blur(5px);
+    }
+
+h1
+{
+  color:white;
+  font-size:2em;
+  padding:0px;
+  margin:2px;
+  align-content:start;
+  align-items:start;
+}
+
+button
+{
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.9em;
+  margin-top:15px;
+  margin-bottom:2px;
+  font-family: 'Gloria Hallelujah', cursive;
+  }
+
+/*agenda*/
+
+.agenda {
+  position: relative;
+  width: 90vw;
+  height:80vh;
+  vertical-align: center;
+  box-sizing: border-box;
+  text-align: center;
+  justify-content:center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.horaire, .jour {
+background-color: #fff;
+font-size:1.2em;
+font-weight:bold;
+}
+
+.jour{
+padding:10px;
+}
+
+.horaire{
+padding:8px;
+}
+
+.bordure {
+
+	height:16px;
+}
+
+.cellule
+{
+	background: rgba(76, 175, 80, 0.3);
+	width:12vw;
+	padding:2px;
+	color:white;
+	padding:8px;
+}
+.cellule:hover
+{
+	background: rgba(76, 175, 80, 1);
+	font-weight:bold;
+}
+
+
+
+  /*formulaire*/
+
+  .formulaire
+  {
+  display:flex;
+  flex-direction:column;
+  position: relative;
+  width: 15vw;
+  height:60vh;
+  background-color: white;
+  align-items:center;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top:30px;
+  justify-content:center;
+  }
+
+  h2
+{
+  padding:2px;
+  margin:2px;
+}
+
+.note
+{
+	height:80px;
+}
